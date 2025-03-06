@@ -6,4 +6,6 @@ export default interface EnvironmentVariables {
     DATABASE_NAME: string;
     DATABASE_HOST: string;
     DATABASE_PORT: number;
+    MIN_MESSAGE_TIME: number;
+    MAX_MESSAGE_TIME: number;
 }

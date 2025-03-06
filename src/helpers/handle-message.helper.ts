@@ -10,7 +10,7 @@ export async function messageHandler(message: Message): Promise<unknown> {
     const shouldNotRespond = !isSentByWife(message);
 
     if (shouldNotRespond) {
-        await bot.sendMessage(id, 'Кем бы ты ни был, ты не похож на мою жену! Но если ты всё таки чего-то от меня хочешь, то обратись к моему создателю, пожалуйста!');
+        await bot.sendMessage(id, 'В доступе отказано. Вы не Сара Конор');
         return
     }
 

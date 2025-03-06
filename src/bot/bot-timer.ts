@@ -1,4 +1,4 @@
-import { bot } from "./config";
+import { bot } from "./config.js";
 
 function getHoursToWait() {
     const maximum = 0.005;

@@ -1,5 +1,5 @@
-import { bot } from "../bot/config";
-import { queueMessage } from "../bot/bot-timer";
+import { bot } from "../bot/config.js";
+import { queueMessage } from "../bot/bot-timer.js";
 
 export async function handleInitialMessage(chatId: number): Promise<void> {
     queueMessage(chatId);

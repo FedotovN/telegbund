@@ -1,4 +1,4 @@
-import { handleInitialMessage } from "../helper/message-handlers.helper";
+import { handleInitialMessage } from "../helper/message-handlers.helper.js";
 
 export const MESSAGES_HANDLERS_DICT = {
     '/start': handleInitialMessage,

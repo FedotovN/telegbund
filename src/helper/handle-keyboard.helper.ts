@@ -1,5 +1,5 @@
 import type { CallbackQuery } from "node-telegram-bot-api";
-import { bot } from "../bot/config";
+import { bot } from "../bot/config.js";
 
 export async function keyboardInputHandler(query: CallbackQuery): Promise<unknown> {
     const { message, data } = query;

@@ -1,7 +1,7 @@
-import { bot } from "../bot/config";
-import { MESSAGES_HANDLERS_DICT } from "../const/handler.const";
 import type { Message } from "node-telegram-bot-api";
-import {isSentByWife} from "./is-sent-by-wife.helper";
+import { bot } from "../bot/config.js";
+import { MESSAGES_HANDLERS_DICT } from "../const/handler.const.js";
+import {isSentByWife} from "./is-sent-by-wife.helper.js";
 
 export async function messageHandler(message: Message): Promise<unknown> {
     const { chat, text } = message;

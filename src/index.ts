@@ -1,5 +1,5 @@
-import { setupBotListeners } from "./bot/bot-listeners";
-import { connectToDatabase } from "./database/config";
+import { setupBotListeners } from "./bot/bot-listeners.js";
+import { connectToDatabase } from "./database/config.js";
 
 async function startApp() {
     await connectToDatabase();

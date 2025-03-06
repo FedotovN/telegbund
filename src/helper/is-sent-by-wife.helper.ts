@@ -1,5 +1,5 @@
 import type { Message } from "node-telegram-bot-api";
-import { WIFE_TELEGRAM_ID } from "../environment";
+import { WIFE_TELEGRAM_ID } from "../environment.js";
 
 export function isSentByWife(message: Message): boolean {
     const { from } = message;

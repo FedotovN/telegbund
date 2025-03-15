@@ -1,0 +1,2 @@
+export const ACCESS_DENIED_STICKER = 'https://cdn2.combot.org/jopcko_by_fstikbot/webp/10xf09f8c9f.webp';
+export const NOT_TEXT_MESSAGE_STICKER = 'https://cdn2.combot.org/jopcko_by_fstikbot/webp/11xf09f8c9f.webp';

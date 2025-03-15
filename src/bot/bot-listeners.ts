@@ -1,5 +1,5 @@
 import { bot } from './config.js';
-import { messageHandler } from "../helpers/handle-message.helper.js";
+import { messageHandler } from "../helpers/handle-message/handle-message.helper.js";
 import { keyboardInputHandler } from "../helpers/handle-keyboard.helper.js";
 
 export function setupBotListeners(): void {
